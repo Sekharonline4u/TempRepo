@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "V22BzvhklFgK0P4wZ+m0WPi2zqIT9+gYxt45baJCUV0k8ufJBtKvUtHCF/e6yNGnIUMBIezcYiyTuycGIPj1Mg==",
+  "success": true,
+  "projectFilePath": "/Users/sekharsrinivasan/Projects/Training/Training.iOS/Training.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/sekharsrinivasan/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/sekharsrinivasan/.nuget/packages/xamarin.essentials/1.6.0/xamarin.essentials.1.6.0.nupkg.sha512",
+    "/Users/sekharsrinivasan/.nuget/packages/xamarin.forms/4.8.0.1821/xamarin.forms.4.8.0.1821.nupkg.sha512"
+  ],
+  "logs": []
+}

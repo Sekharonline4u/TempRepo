@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Training.ViewModel"
+             xmlns:converters="clr-namespace:Training.Converters"
+             x:Class="Training.View.SessionView">
+    <ContentPage.BindingContext>
+        <vm:SessionViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:LevelConverter x:Key="levelConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+           <ListView ItemsSource="{Binding Sessions}"
+                     Header="">
+               <ListView.HeaderTemplate>
+                   <DataTemplate>
+                       <Grid ColumnDefinitions="*,*,*" BackgroundColor="LightSkyBlue">
+                           <Label Text="Trainer" Grid.Column="0" />
+                           <Label Text="Topic" Grid.Column="1" />
+                           <Label Text="Difficulty" Grid.Column="2" />
+                       </Grid>
+                   </DataTemplate>
+               </ListView.HeaderTemplate>
+
+               <ListView.ItemTemplate>
+                   <DataTemplate>
+                       <ViewCell>
+                           <ViewCell.View>
+                               <Grid ColumnDefinitions="*,*,*">
+                                   <Label Text="{Binding Trainer}" Grid.Column="0" />
+                                   <Label Text="{Binding Topic}" Grid.Column="1" />
+                                   <Label Text="{Binding DifficultyLevel,
+                                       Converter={StaticResource levelConverter}}"
+                                          Grid.Column="2"
+                                          />
+                               </Grid>
+                           </ViewCell.View>
+                       </ViewCell>
+                   </DataTemplate>
+               </ListView.ItemTemplate>
+           </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

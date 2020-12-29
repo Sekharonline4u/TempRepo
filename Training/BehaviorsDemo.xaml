@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:behaviors="clr-namespace:Training.Behaviors"
+             x:Class="Training.BehaviorsDemo"
+             Title="Registration Form">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Entry">
+                <Setter Property="Margin" Value="20" />
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="LightYellow" />
+                                </VisualState.Setters>
+                            </VisualState>
+
+                            <VisualState x:Name="Focused">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="LightSkyBlue" />
+                                    <Setter Property="FontSize" Value="24" />
+                                </VisualState.Setters>
+                            </VisualState>
+
+                            <VisualState x:Name="Disabled">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="LightGray" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout x:Name="MainLayout">
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup Name="ValidationStates">
+                    <VisualState Name="Valid">
+                        <VisualState.Setters>
+                            <Setter TargetName="LabelHelper"
+                                    Property="Label.IsVisible" Value="False" />
+                            <Setter TargetName="EntryPassword"
+                                    Property="BackgroundColor" Value="LightSkyBlue" />
+                        </VisualState.Setters>
+                    </VisualState>
+
+                    <VisualState Name="Invalid">
+                        <VisualState.Setters>
+                            <Setter TargetName="LabelHelper"
+                                    Property="Label.IsVisible" Value="True" />
+                            <Setter TargetName="EntryPassword"
+                                    Property="BackgroundColor" Value="Red" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+            <Entry x:Name="EntryID" Text="FormID 101" IsEnabled="False" />
+            <Entry x:Name="EntryName" Placeholder="Enter Username">
+                <Entry.Behaviors>
+                    <behaviors:NotNullBehavior x:Name="NNUname" />
+                </Entry.Behaviors>
+            </Entry>
+            <Entry x:Name="EntryPassword" Placeholder="Enter Password" 
+                   TextChanged="EntryPassword_TextChanged">
+                <Entry.Behaviors>
+                    <behaviors:NotNullBehavior x:Name="NNPasswd" />
+                </Entry.Behaviors>
+            </Entry>
+            <Label Text="Password Should be Min. 6 Characters only Alpha Numeric Values are allowed"
+                   x:Name="LabelHelper" TextColor="Red" Margin="20,0" />
+            <Entry x:Name="EntryAge" Placeholder="Enter Age">
+                <Entry.Behaviors>
+                    <behaviors:NotNullBehavior x:Name="NNAge" />
+                </Entry.Behaviors>
+            </Entry>
+            <Entry x:Name="EntryMobile" Placeholder="Enter Mobile" />
+            <Button Text="Register" BackgroundColor="Purple" TextColor="White"
+                    WidthRequest="200" CornerRadius="20" HorizontalOptions="Center"
+                    />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

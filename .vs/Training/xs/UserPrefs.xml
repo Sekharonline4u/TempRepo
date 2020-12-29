@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{F42CDB37-1779-40A4-9763-9E99C9B4B01C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Training/View/SessionView.xaml">
+    <Files>
+      <File FileName="Training/TriggersDemo.xaml" Line="75" Column="54" />
+      <File FileName="Training/TriggersDemo.xaml.cs" />
+      <File FileName="Training/Triggers/AgeVerificationTrigger.cs" />
+      <File FileName="Training/Converters/IntToBoolConverter.cs" />
+      <File FileName="Training/BehaviorsDemo.xaml" />
+      <File FileName="Training/BehaviorsDemo.xaml.cs" />
+      <File FileName="Training/App.xaml.cs" />
+      <File FileName="Training/Behaviors/NotNullBehavior.cs" />
+      <File FileName="Training/Model/Session.cs" />
+      <File FileName="Training/View/SessionView.xaml" Line="37" Column="80" />
+      <File FileName="Training/View/SessionView.xaml.cs" />
+      <File FileName="Training/ViewModel/SessionViewModel.cs" />
+      <File FileName="Training/Converters/LevelConverter.cs" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Training.Android FirstBuild="True" PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Training.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5C540CA0-3D62-41B1-A360-D38010F2E9A7" />
+</Properties>
