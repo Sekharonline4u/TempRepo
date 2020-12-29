@@ -1,0 +1,16 @@
+/Users/sekharsrinivasan/Projects/Training/Training/bin/Release/netstandard2.0/Training.deps.json
+/Users/sekharsrinivasan/Projects/Training/Training/bin/Release/netstandard2.0/Training.dll
+/Users/sekharsrinivasan/Projects/Training/Training/bin/Release/netstandard2.0/ref/Training.dll
+/Users/sekharsrinivasan/Projects/Training/Training/bin/Release/netstandard2.0/Training.pdb
+/Users/sekharsrinivasan/Projects/Training/Training/obj/Release/netstandard2.0/App.xaml.g.cs
+/Users/sekharsrinivasan/Projects/Training/Training/obj/Release/netstandard2.0/BehaviorsDemo.xaml.g.cs
+/Users/sekharsrinivasan/Projects/Training/Training/obj/Release/netstandard2.0/MainPage.xaml.g.cs
+/Users/sekharsrinivasan/Projects/Training/Training/obj/Release/netstandard2.0/TriggersDemo.xaml.g.cs
+/Users/sekharsrinivasan/Projects/Training/Training/obj/Release/netstandard2.0/View/SessionView.xaml.g.cs
+/Users/sekharsrinivasan/Projects/Training/Training/obj/Release/netstandard2.0/Training.AssemblyInfoInputs.cache
+/Users/sekharsrinivasan/Projects/Training/Training/obj/Release/netstandard2.0/Training.AssemblyInfo.cs
+/Users/sekharsrinivasan/Projects/Training/Training/obj/Release/netstandard2.0/Training.csproj.CoreCompileInputs.cache
+/Users/sekharsrinivasan/Projects/Training/Training/obj/Release/netstandard2.0/XamlC.stamp
+/Users/sekharsrinivasan/Projects/Training/Training/obj/Release/netstandard2.0/Training.dll
+/Users/sekharsrinivasan/Projects/Training/Training/obj/Release/netstandard2.0/ref/Training.dll
+/Users/sekharsrinivasan/Projects/Training/Training/obj/Release/netstandard2.0/Training.pdb

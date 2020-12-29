@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{F42CDB37-1779-40A4-9763-9E99C9B4B01C}|Default">
+﻿<Properties StartupConfiguration="{E91BF0A4-D959-454F-8893-575F5FA900FD}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Training/View/SessionView.xaml">
     <Files>
       <File FileName="Training/TriggersDemo.xaml" Line="75" Column="54" />
@@ -10,14 +10,23 @@
       <File FileName="Training/App.xaml.cs" />
       <File FileName="Training/Behaviors/NotNullBehavior.cs" />
       <File FileName="Training/Model/Session.cs" />
-      <File FileName="Training/View/SessionView.xaml" Line="37" Column="80" />
+      <File FileName="Training/View/SessionView.xaml" Line="37" Column="32" />
       <File FileName="Training/View/SessionView.xaml.cs" />
       <File FileName="Training/ViewModel/SessionViewModel.cs" />
       <File FileName="Training/Converters/LevelConverter.cs" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Training" expanded="True">
+            <Node name="Training.Android" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.ItemProperties.Training.Android FirstBuild="True" PreferredExecutionTarget="Android.SelectDevice" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
